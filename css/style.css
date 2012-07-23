@@ -1,0 +1,197 @@
+
+body {
+   background:url(../images/bg.jpg);
+   font-family: 'Enriqueta', serif;
+}
+p{
+	font-family: 'Enriqueta', serif;
+}
+a {
+	text-decoration:none;
+}
+
+ul.simplePagerNav li{
+    display:block;
+    float: left;
+    width:30px;
+    height:30px;
+    text-align:center;
+    margin-bottom: 10px;
+    margin-top:10px;
+    font-family: 'Enriqueta', serif;
+    font-size:20px;
+    border-radius:5px;
+}
+
+ul.simplePagerNav li a{
+    color: #711E0C;
+    text-decoration: none;
+}
+
+li.currentPage {
+	background: red;
+    background: #711E0C;
+}
+
+ul.simplePagerNav li.currentPage a {
+	color: #fff;	
+}
+
+#left_title {
+  font-size:50px;
+  text-align: center;
+  font-family: 'Montez', cursive;
+  color:#711E0C;
+}
+
+#right_title{
+  font-size:30px;
+  text-align: center;
+  font-family: 'Montez', cursive;
+  color:#711E0C;
+}
+
+#left_header{
+	padding-top:30px;
+}
+#right_header{
+	padding-top:30px;
+}
+
+.recipe{
+	width:95%;
+}
+#tag_cloud{
+	margin-left:30px;
+	font-size:20px;
+}
+
+#tag_cloud a{
+	float:left;
+	color:#A96A41;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding:3px;
+	background:#F8BD95;
+	margin:5px;
+}
+
+#tag_cloud a:hover{
+	background:#EFA86A;
+	text-decoration:none;
+}
+
+#tag_cloud .selected{
+	background:#EFA86A;
+}
+
+#menu {
+	text-align:center;
+	margin-bottom:15px;
+	margin-top:15px;
+	line-height:25px; 
+	font-size:20px;
+}
+
+#menu a{
+	color:#A96A41;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding:3px;
+	color:white;
+	border:1px solid #A96A41;
+	margin:0 5px;
+	background:#711E0C;
+}
+
+#favorites_link{
+	background:url('../images/star.png') no-repeat #711E0C 1px 5px !important;
+	padding-left:30px !important;
+}
+
+#favorites_link:hover{
+	background:url('../images/star.png') no-repeat #A96A41 1px 5px !important;
+	padding-left:30px !important;
+}
+
+#menu a:hover{
+	background-color:#A96A41;
+}
+
+::-webkit-input-placeholder{
+    color:    #A96A41;
+    font-family: 'Enriqueta', serif;
+}
+:-moz-placeholder{
+    color:    #A96A41;
+}
+
+
+#addRecipeForm{
+	display:none;
+	margin-left:30px;
+	text-align:center;
+	margin-bottom:15px;
+	font-family: 'Enriqueta', serif;
+}
+
+#addRecipeForm input, textarea{
+	margin:5px;
+	font-size:15px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	width:350px;
+	border:1px solid #711E0C;
+	padding:5px;
+	font-family: 'Enriqueta', serif;
+	color:#711E0C;
+}
+
+#addRecipeFormSubmit{
+	width:100px !important;
+	background:white;
+	font-family: 'Enriqueta', serif;
+	color:#A96A41;
+}
+
+#listRecipes{
+	width:400px;
+}
+#listRecipes li{
+	color:black;
+	border-bottom:1px solid #C0C0C0;
+}
+#listRecipes img{
+	float:right;
+	margin-top:6px;
+}
+#listRecipes a{
+	color:black;
+	display:block;
+		padding-bottom:10px;
+	padding-top:10px;
+}
+pre {
+	font-family: 'Enriqueta', serif;
+	font-size:15px;
+}
+pre {
+ white-space: pre-wrap;       /* css-3 */
+ white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+ white-space: -pre-wrap;      /* Opera 4-6 */
+ white-space: -o-pre-wrap;    /* Opera 7 */
+ word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+h2{
+	margin-top:20px;
+}
+.container_12 {
+  margin-bottom: 20px;
+  height:690px;
+  overflow:hidden;
+}
+
+.container_12 {
+  background-image: url(../images/book_bg.png);
+}
